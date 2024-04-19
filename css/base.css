@@ -125,9 +125,103 @@ body {
         }
 }
 
-  
-          
+footer {
+    background-color: #ffffff;
+    color: #0088CC;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+        .navegacao {
+            margin-right: 20px; 
+                    ul {
+                        list-style-type: none; 
+                        padding: 10;
+                        margin: 0;
+                        align-items: center; 
+                        
+                        li {
+                            margin-top: 10px; 
+                            a {
+                                display: inline-block;
+                                padding: 10px 20px; 
+                                border-radius: 20px; 
+                                background-color: #00A1FC; 
+                                color: #fff; 
+                                text-decoration: none; 
+                                transition: background-color 0.3s ease; 
+
+                                    &:hover {
+                                            background-color: #0088CC;
+                                    }
+
+                                    img{
+                                        width: 15px;
+                                    }
+                            }
+                        }
+
+                    }
+        }
+
+        .copyright {
+                    text-align: center;
+                    clear: both; 
+                    margin-top: 20px; 
+                    }
         
+        #logo-inferior {
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-40px, 20px); /* Ajusta o posicionamento */
+            width: auto; 
+            height: 80px; 
+            border-radius: 0;
+          }
+          #redes-sociais {
+            position: relative;
+            margin-top: 0;
+            display: flex;
+            align-items: right; 
+            justify-content: right; 
+                    h5{
+                        position: absolute;
+                        margin-top: 50px;
+                        display: flex;
+                        align-items: right; 
+                        justify-content: right;
+                        font-family: "Aleo";
+                        font-size: 30px 
+                    }
+            
+                    ul {
+                        list-style-type: none; 
+                        padding: 0;
+                        margin: 0;
+                        display: flex;
+                        align-items: center; 
+                        
+                        li {
+                            margin-right: 20px; 
+                            a {
+                                display: inline-block;
+                                padding: 8px 16px; 
+                                border-radius: 20px; 
+                                background-color: #00A1FC; 
+                                color: #fff; 
+                                text-decoration: none; 
+                                transition: background-color 0.3s ease; 
 
+                                    &:hover {
+                                            background-color: #0088CC;
+                                            }
+                                    img{
+                                        width: 15px;
+                                    }
+                                }
+                            }
 
-
+                        }
+                    }
